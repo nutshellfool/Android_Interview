@@ -15,3 +15,7 @@
 	>>如果手机和平板的布局设计不一样该怎么做？  
 	>>如果手机和平板的布局设计一样该又怎么做？
 	此题无特殊的考察点，只是需要知道对应多屏的策略和Android匹配资源的规则。
+	
+3、Listview 中的OnItemClicked 事件无法相应事件，原因可能是什么？
+
+	ListviewCell 中有button， button 的focusable,focusableInTouchMode 属性设为false就可以解决
